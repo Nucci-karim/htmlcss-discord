@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    width: 70%;
+    height: 400px;
+    margin: 20px auto ;
+    font-size: larger;
+}
+
+.box-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    width: 70%;
+    height: 400px;
+    margin: 20px auto ;
+}
+
+/* tutto nell'header */
+header{
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-position: top;
+    background-size: 130%;
+}
+
+nav{
+    height: 50px; 
+    text-align: center;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.section-nav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    width: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links{
+     width: 60%;
+   
+}
+
+.login{
+    width: 10%;
+    justify-self: flex-end;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.bottoni-lunghi{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.b-bianco{
+    background-color: white;
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.b-nero{
+    background-color: black;
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.header{
+    width: 50%; 
+    height: 200px;
+    margin: 100px auto ;
+}
+h1{
+    font-size: xxx-large;
+    margin: 30px 0;
+}
+/* tutto per il main */
+.bianco{
+    background-color: white;
+    display: flex;
+}
+
+.grigio{
+    background-color: grey;
+}
+
+.principale {
+    width: 60%;
+    background-color: aqua;
+}
+
+.sinistra{
+    width: 40%;
+    background-color: blanchedalmond;
+}
+
+.destra{
+    width: 40%;
+    background-color: bisque;
+}
+
+.finale{
+    background-color: green;
+}
+/* parte footer */
+footer{
+    background-color: gray;
+    height: 500px; 
+    text-align: center;
+}
+.primo{
+    width: 30%;
+    height: 100%;
+    background-color: pink;
+}
+
+.quartetto{
+    width: calc(80%/4);
+    height: 100%;
+    background-color: aqua;
+}
+
+#sing-up{
+    width: 20%;
+    justify-self: flex-end;
+}
+
+#nav-footer{
+    border-top: 2px solid blue;
+    background-color: gray;
+    height: 50px; 
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+    
