@@ -141,6 +141,13 @@ h1{
 .last{
     height: 450px;
 }
+
+.b-purple{
+    background-color: rgb(168, 93, 168);
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 10px;
+}
 /* parte footer */
 footer{
     background-color: gray;
